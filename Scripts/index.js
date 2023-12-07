@@ -152,6 +152,11 @@ function handleSubmit(e) {
 
 }
 
+
+
+
+
+
   // typing text animation script
   // var typed = new Typed(".typing1", {
   //   strings: ['Full Stack Web Developer',"Node Js Backend Developer", "Day Dreamer"],
@@ -161,7 +166,7 @@ function handleSubmit(e) {
   // });
 
   const typed = new Typed('.typing1', {
-    strings: ['','Full Stack Web Developer', 'Frontend Developer',"Node Js Backend Developer"],
+    strings: ['','Full Stack Web Developer', 'Frontend Developer'],
     typeSpeed: 100,
     backSpeed: 60,
     backdelay: 10000,
