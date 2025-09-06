@@ -14,6 +14,7 @@ let navbar = document.querySelector(".navbar");
 var myNav = document.getElementById('nav-menu');
 var myNav2 = document.getElementById('menu-icon');
 console.log(myNav2);
+
 window.onscroll = function () {
   if (document.documentElement.scrollTop >= 15) {
     myNav.classList.add("nav-colored");
