@@ -1,23 +1,23 @@
 // ─── Skills ──────────────────────────────────────────────────────────────────
 export const skills = [
-  { name: 'HTML',       img: 'https://i.postimg.cc/fRbKFQ8X/Html.png' },
-  { name: 'CSS',        img: 'https://i.postimg.cc/VNpDnZBt/Css.png' },
+  { name: 'HTML', img: 'https://i.postimg.cc/fRbKFQ8X/Html.png' },
+  { name: 'CSS', img: 'https://i.postimg.cc/VNpDnZBt/Css.png' },
   { name: 'JavaScript', img: 'https://www.javascripttutorial.net/wp-content/uploads/2021/04/JavaScript-Tutorial.svg' },
-  { name: 'NodeJS',     img: 'https://rohithanss.github.io/skills/nodejs.png' },
-  { name: 'ExpressJS',  img: 'https://rohithanss.github.io/skills/expressJs.png' },
-  { name: 'MongoDB',    img: 'https://hanumat-sharan.github.io/static/media/mongodb-seeklogo.com.1aca075d5cce0819fea7ea0902d94ce4.svg' },
-  { name: 'SQL',        img: 'https://i.postimg.cc/15BBJ3rs/Dsa.png' },
-  { name: 'ReactJS',    img: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg' },
+  { name: 'NodeJS', img: 'https://rohithanss.github.io/skills/nodejs.png' },
+  { name: 'ExpressJS', img: 'https://rohithanss.github.io/skills/expressJs.png' },
+  { name: 'MongoDB', img: 'https://hanumat-sharan.github.io/static/media/mongodb-seeklogo.com.1aca075d5cce0819fea7ea0902d94ce4.svg' },
+  { name: 'SQL', img: 'https://i.postimg.cc/15BBJ3rs/Dsa.png' },
+  { name: 'ReactJS', img: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg' },
   { name: 'TypeScript', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png' },
 ]
 
 // ─── Tools ───────────────────────────────────────────────────────────────────
 export const tools = [
-  { name: 'Git',     img: 'https://i.postimg.cc/hPcMLdx2/git.png' },
-  { name: 'GitHub',  img: 'https://i.postimg.cc/rySQRJdd/github.png' },
+  { name: 'Git', img: 'https://i.postimg.cc/hPcMLdx2/git.png' },
+  { name: 'GitHub', img: 'https://i.postimg.cc/rySQRJdd/github.png' },
   { name: 'VS Code', img: 'https://rohithanss.github.io/skills/vscode.png' },
   { name: 'Postman', img: '/Media/postman-icon.svg' },
-  { name: 'NPM',     img: '/Media/npm-square-red-1.svg' },
+  { name: 'NPM', img: '/Media/npm-square-red-1.svg' },
 ]
 
 // ─── About stats ─────────────────────────────────────────────────────────────
@@ -26,7 +26,7 @@ export const stats = [
   '400+ Hours soft skills',
   '700+ DSA problems solved',
   '100+ Assignments completed',
-  '4+ Collaborative projects',
+  '2+ Collaborative projects',
   '3+ Solo projects',
 ]
 
@@ -49,12 +49,12 @@ export const projects = [
       '/Projects/sastaSafar/Managetrip.png',
     ],
     tech: [
-      { name: 'HTML',       img: 'https://i.postimg.cc/fRbKFQ8X/Html.png' },
-      { name: 'CSS',        img: 'https://i.postimg.cc/VNpDnZBt/Css.png' },
+      { name: 'HTML', img: 'https://i.postimg.cc/fRbKFQ8X/Html.png' },
+      { name: 'CSS', img: 'https://i.postimg.cc/VNpDnZBt/Css.png' },
       { name: 'JavaScript', img: 'https://www.javascripttutorial.net/wp-content/uploads/2021/04/JavaScript-Tutorial.svg' },
     ],
     github: 'https://github.com/Priyap1038/SastaSafar',
-    live:   'https://648f2e0f38df2949a6152146--glittery-elf-a56a10.netlify.app/index.html',
+    live: 'https://648f2e0f38df2949a6152146--glittery-elf-a56a10.netlify.app/index.html',
   },
   {
     id: 2,
@@ -72,13 +72,13 @@ export const projects = [
       '/Projects/clothy/adminpage.png',
     ],
     tech: [
-      { name: 'HTML',       img: 'https://i.postimg.cc/fRbKFQ8X/Html.png' },
-      { name: 'CSS',        img: 'https://i.postimg.cc/VNpDnZBt/Css.png' },
+      { name: 'HTML', img: 'https://i.postimg.cc/fRbKFQ8X/Html.png' },
+      { name: 'CSS', img: 'https://i.postimg.cc/VNpDnZBt/Css.png' },
       { name: 'JavaScript', img: 'https://www.javascripttutorial.net/wp-content/uploads/2021/04/JavaScript-Tutorial.svg' },
-      { name: 'ReactJS',    img: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg' },
+      { name: 'ReactJS', img: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg' },
     ],
     github: 'https://github.com/Priyap1038/Clothy',
-    live:   'https://clothly.vercel.app/',
+    live: 'https://clothly.vercel.app/',
   },
   {
     id: 3,
@@ -92,21 +92,21 @@ export const projects = [
       '/Projects/Furniture/Cart.png',
     ],
     tech: [
-      { name: 'HTML',       img: 'https://i.postimg.cc/fRbKFQ8X/Html.png' },
-      { name: 'CSS',        img: 'https://i.postimg.cc/VNpDnZBt/Css.png' },
+      { name: 'HTML', img: 'https://i.postimg.cc/fRbKFQ8X/Html.png' },
+      { name: 'CSS', img: 'https://i.postimg.cc/VNpDnZBt/Css.png' },
       { name: 'JavaScript', img: 'https://www.javascripttutorial.net/wp-content/uploads/2021/04/JavaScript-Tutorial.svg' },
     ],
     github: 'https://github.com/Priyap1038/petite-swing-7786',
-    live:   'https://lustrous-lolly-4efea7.netlify.app/',
+    live: 'https://lustrous-lolly-4efea7.netlify.app/',
   },
 ]
 
 // ─── Contact info ─────────────────────────────────────────────────────────────
 export const contactInfo = {
   location: 'Haveri, Karnataka (India)',
-  email:    'priyap1038@gmail.com',
-  phone:    '+91 7676886137',
-  github:   'https://github.com/Priyap1038',
+  email: 'priyap1038@gmail.com',
+  phone: '+91 7676886137',
+  github: 'https://github.com/Priyap1038',
   linkedin: 'https://www.linkedin.com/in/priya-p-50a998250/',
 }
 
