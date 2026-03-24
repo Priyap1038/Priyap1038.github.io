@@ -92,7 +92,7 @@ npm run build
 
 ## 🌍 Live Site
 
-👉 [priyap1038.github.io](https://priyap1038.github.io)
+👉 https://priya-dev.pages.dev/
 
 ---
 
