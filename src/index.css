@@ -5,8 +5,11 @@
   list-style: none;
   text-decoration: none;
   scroll-behavior: smooth;
+}
+body {
   font-family: 'Inter', sans-serif;
 }
+
 
 /* ── Theme Variables ───────────────────────────────────────────────────────── */
 .dark-mode {
@@ -154,48 +157,23 @@
   box-shadow: 0 4px 20px var(--glow);
 }
 
-/* ── Theme toggle pill ──────────────────────────────────────────────────────── */
-.theme-toggle {
+/* ── Minimal Theme Toggle ──────────────────────────────────────────────────── */
+.darkmode-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: var(--text);
+  padding: 4px 8px;
+  transition: transform 0.3s, color 0.3s;
   display: flex;
   align-items: center;
-  gap: 6px;
-  background: var(--card-bg);
-  border: 1.5px solid var(--card-border);
-  border-radius: 999px;
-  cursor: pointer;
-  padding: 5px 10px;
-  margin-left: 8px;
-  transition: border-color 0.3s, background 0.3s, box-shadow 0.3s;
-  position: relative;
+  justify-content: center;
+  margin-left: 6px;
 }
-.theme-toggle:hover {
-  border-color: var(--accent2);
-  box-shadow: 0 0 14px var(--glow);
-}
-
-.toggle-option {
-  font-size: 0.95rem;
-  opacity: 0.4;
-  transition: opacity 0.3s, transform 0.3s;
-  line-height: 1;
-  z-index: 1;
-}
-.toggle-active {
-  opacity: 1;
-  transform: scale(1.15);
-}
-
-.toggle-thumb {
-  width: 20px; height: 20px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--accent1), var(--accent3));
-  transition: transform 0.35s cubic-bezier(0.4,0,0.2,1);
-  box-shadow: 0 0 8px var(--glow);
-  flex-shrink: 0;
-  transform: translateX(-8px);
-}
-.toggle-thumb.thumb-right {
-  transform: translateX(8px);
+.darkmode-btn:hover {
+  transform: rotate(20deg);
+  color: var(--accent1);
 }
 
 .menu-icon {
@@ -714,7 +692,7 @@
   .skills-grid { grid-template-columns: repeat(4, 1fr); }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 890px) {
   .section { padding: 60px 5%; }
 
   /* Navbar */

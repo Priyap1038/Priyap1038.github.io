@@ -10,13 +10,13 @@ export default function About() {
 
       <div className="about-container">
         <div className="about-img-wrap">
-          <div className="photo-ring">
+          {/* <div className="photo-ring">
             <img
               className="about-photo"
               src="/Images/Priya_P_Photo.jpg"
               alt="Priya Patole"
             />
-          </div>
+          </div> */}
         </div>
 
         <div className="about-content">

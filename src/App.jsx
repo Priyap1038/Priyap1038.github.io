@@ -8,7 +8,7 @@ import GitHubStats from './components/GitHubStats'
 import Contact from './components/Contact'
 
 export default function App() {
-  const [darkMode, setDarkMode] = useState(true)
+  const [darkMode, setDarkMode] = useState(false)
 
   return (
     <div className={darkMode ? 'dark-mode' : 'light-mode'}>

@@ -54,18 +54,12 @@ export default function Navbar({ darkMode, setDarkMode }) {
 
         <li>
           <button
-            className="theme-toggle"
+            className="darkmode-btn"
             onClick={() => { setDarkMode(!darkMode); setMenuOpen(false) }}
             aria-label="Toggle dark/light mode"
             title={darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
           >
-            <span className={`toggle-option${darkMode ? '' : ' toggle-active'}`}>
-              ☀️
-            </span>
-            <span className={`toggle-thumb${darkMode ? ' thumb-right' : ''}`} />
-            <span className={`toggle-option${darkMode ? ' toggle-active' : ''}`}>
-              🌙
-            </span>
+            <i className={`bx ${darkMode ? 'bx-sun' : 'bx-moon'}`} />
           </button>
         </li>
       </nav>
