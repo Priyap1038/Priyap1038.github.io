@@ -119,12 +119,10 @@ export const projects = [
       'Droply is a Dockerized file sharing and management platform built using Next.js 15. It focuses on secure authentication, scalable backend architecture, and a clean modern UI.',
     images: [
       '/Projects/Droply/Homepage.png',
-      '/Projects/Droply/Signup.png',
-      '/Projects/Droply/signin.png',
+      '/Projects/Droply/Signin_Signup.png',
       '/Projects/Droply/Library.png',
-      '/projects/Droply/AllFiles.png',
-      '/projects/Droply/starred.png',
-      '/projects/Droply/Trash.png',
+      '/Projects/Droply/Starred.png',
+      '/Projects/Droply/Trash.png',
 
     ],
     tech: [
