@@ -9,6 +9,15 @@ export const skills = [
   { name: 'SQL', img: 'https://i.postimg.cc/15BBJ3rs/Dsa.png' },
   { name: 'ReactJS', img: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg' },
   { name: 'TypeScript', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png' },
+  { name: 'Python', img: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg' },
+  { name: 'FastAPI', img: 'https://upload.wikimedia.org/wikipedia/commons/1/1a/FastAPI_logo.svg' },
+  { name: 'CI/CD', img: 'https://cdn-icons-png.flaticon.com/512/906/906175.png' },
+  { name: 'Generative AI', img: 'https://cdn-icons-png.flaticon.com/512/4712/4712109.png' },
+  { name: 'Next.js', img: 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg' },
+  { name: 'RAG', img: 'https://cdn-icons-png.flaticon.com/512/4712/4712109.png' },
+  { name: 'LangChain', img: 'https://avatars.githubusercontent.com/u/139895814?s=200&v=4' },
+  { name: 'Docker', img: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg' },
+  { name: 'Redux', img: 'https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png' },
 ]
 
 // ─── Tools ───────────────────────────────────────────────────────────────────
@@ -18,6 +27,10 @@ export const tools = [
   { name: 'VS Code', img: 'https://rohithanss.github.io/skills/vscode.png' },
   { name: 'Postman', img: '/Media/postman-icon.svg' },
   { name: 'NPM', img: '/Media/npm-square-red-1.svg' },
+  { name: 'Firebase', img: 'https://upload.wikimedia.org/wikipedia/commons/3/37/Firebase_Logo.svg' },
+  { name: 'Docker', img: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg' },
+  { name: 'Clerk', img: 'https://avatars.githubusercontent.com/u/77309702?s=200&v=4' },
+  { name: 'Drizzle', img: 'https://avatars.githubusercontent.com/u/108468352?s=200&v=4' },
 ]
 
 // ─── About stats ─────────────────────────────────────────────────────────────
