@@ -112,6 +112,35 @@ export const projects = [
     github: 'https://github.com/Priyap1038/petite-swing-7786',
     live: 'https://lustrous-lolly-4efea7.netlify.app/',
   },
+  {
+    id: 4,
+    title: 'Droply',
+    description:
+      'Droply is a Dockerized file sharing and management platform built using Next.js 15. It focuses on secure authentication, scalable backend architecture, and a clean modern UI.',
+    images: [
+      '/Projects/Droply/Homepage.png',
+      '/Projects/Droply/Signup.png',
+      '/Projects/Droply/signin.png',
+      '/Projects/Droply/Library.png',
+      '/projects/Droply/AllFiles.png',
+      '/projects/Droply/starred.png',
+      '/projects/Droply/Trash.png',
+
+    ],
+    tech: [
+      { name: 'Next.js', img: 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg' },
+      { name: 'ReactJS', img: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg' },
+      { name: 'TypeScript', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png' },
+      { name: 'Tailwind CSS', img: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg' },
+      { name: 'Framer Motion', img: 'https://avatars.githubusercontent.com/u/102256601?s=200&v=4' },
+      { name: 'Clerk', img: 'https://avatars.githubusercontent.com/u/77309702?s=200&v=4' },
+      { name: 'Drizzle', img: 'https://avatars.githubusercontent.com/u/108468352?s=200&v=4' },
+      { name: 'PostgreSQL', img: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg' },
+      { name: 'Docker', img: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg' },
+    ],
+    github: 'https://github.com/Priyap1038/Droply',
+    live: 'https://droply-ashen.vercel.app/',
+  }
 ]
 
 // ─── Contact info ─────────────────────────────────────────────────────────────
